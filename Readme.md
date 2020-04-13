@@ -121,13 +121,11 @@ And to start the aplication in your browser, run:
 yarn start
 ```
 
-<h3 align="center">
-  🚨⚠️ &nbsp;&nbsp; WARNING!! &nbsp;&nbsp; ⚠️🚨
-</h3>
 
-<div align="center">
-  To take advantage of this application, you need <a href="https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2">the back-end server</a> to be running.
-</div>
+### 🚨⚠️ &nbsp;&nbsp; WARNING!! &nbsp;&nbsp; ⚠️🚨
+
+
+___To take advantage of this application, you need [the back-end server](https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2) to be running.___
 
 <br/>
 
