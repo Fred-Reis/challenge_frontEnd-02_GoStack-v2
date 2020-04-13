@@ -115,6 +115,18 @@ To link with IOS:
 pod install
 ```
 
+And to start the aplication in your browser, run: 
+
+```bash
+yarn start
+```
+
+<h3 align="center">
+  🚨⚠️ &nbsp;&nbsp;  WARNING!! &nbsp;&nbsp; ⚠️🚨
+</h3>
+
+> To enjoy this application you need that [the backend server](https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2) is running
+
 😃 Now run the project in your device or favorite emulator and...
 **BE HAPPY**.
 
