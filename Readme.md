@@ -97,8 +97,7 @@ In this simple project, when the component is rendered, all previously created r
 
 ## 🏁 Run this project:
 
-To run on the first time,  
-into your folder:
+To run on the first time, into your folder:
 
 ```bash
 $ git clone https://github.com/Fred-Reis/challenge_frontEnd-02_GoStack-v2
