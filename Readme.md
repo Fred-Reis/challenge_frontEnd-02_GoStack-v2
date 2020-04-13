@@ -126,7 +126,7 @@ yarn start
 </h3>
 
 <div align="center">
-  To enjoy this application you need that <a href="https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2">the backend server</a> is running.
+  To take advantage of this application, you need <a href="https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2">the back-end server</a> to be running.
 </div>
 
 <br/>
