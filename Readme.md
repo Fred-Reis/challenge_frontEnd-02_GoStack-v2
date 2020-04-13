@@ -121,13 +121,15 @@ And to start the aplication in your browser, run:
 yarn start
 ```
 
-<h3 align="center">
+<h3 align="center" color="#7159c1">
   🚨⚠️ &nbsp;&nbsp; WARNING!! &nbsp;&nbsp; ⚠️🚨
 </h3>
 
- To enjoy this application you need that [the backend server](https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2) is running.
+<div  align="center">
+  To enjoy this application you need that <a href="https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2">the backend server</a> is running.
+</div>
 
- <br/>
+<br/>
 
 😃 Now run the project in your device or favorite emulator and...
 **BE HAPPY**.
