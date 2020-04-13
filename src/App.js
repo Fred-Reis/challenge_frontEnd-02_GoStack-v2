@@ -9,17 +9,17 @@ function App() {
 
   useEffect(() => {
 
+    const getData = async () => {
+
+      const response = await api.get('repositories')
+  
+      setRepositories(response.data)
+  
+     }
+
      getData()
 
   },[])
-
-  const getData = async () => {
-
-    const response = await api.get('repositories')
-
-    setRepositories(response.data)
-
-   }
 
   async function handleAddRepository() {
 
@@ -27,7 +27,7 @@ function App() {
         title: `repositório_${Math.random().toString(36).substring(5)}`,
         url: `www.github.${Math.random().toString(36).substring(3)}.com.br`,
         techs: [
-          "NodeJS", "React"
+          `${Math.random().toString(36).substring(5)}`, `${Math.random().toString(36).substring(5)}`
         ]
     })
     
@@ -40,23 +40,22 @@ function App() {
 
     await api.delete(`repositories/${id}`)
 
-    getData()
+    setRepositories(repositories.filter(r => r.id === !id))
 
   }
 
   return (
     <div>
-      {repositories.map(repositorie => (
-      <ul data-testid="repository-list" key={repositorie.id}>
-        <li >
+      <ul data-testid="repository-list">
+        {repositories.map(repositorie => (
+        <li key={repositorie.id}>
         {repositorie.title}
           <button onClick={() => handleRemoveRepository(repositorie.id)}>
             Remover
           </button>
         </li>
-        
+        ))}
       </ul>
-      ))}
       <button onClick={handleAddRepository}>Adicionar</button>
     </div>
   );

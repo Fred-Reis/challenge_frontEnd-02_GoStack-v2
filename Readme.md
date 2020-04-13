@@ -74,32 +74,26 @@
 
 This challenge was to practice knowledge of the fundamentals with ReactJS.
 
-An application was developed to store repositories in a portfolio, which it allowed creating, listing, updating and removing the repositories, and also allowing the repositories to receive "likes".
-
-
+An application was developed to consume an API previously developed with the NodeJS.
 
 ## 🔥 Functionalities:
 
-In this project, the routes were implemented using HTTP methods.
-* `POST /repositories` => Create a new repositorie.
-* `GET /repositories` => List all repositories.
-* `PUT /repositories/:id` => Updates some parameters of the repository with the same ID received by __request params__.
-* `DELETE /repositories/:id` => Delete the repositorie with the same ID received by __request params__.
-* `POST /repositories/:id/like` => Increase one more "like" in the repository with the same ID received by __request params__,
-whenever this route is called.
+In this simple project, when the component is rendered, all previously created repositories are listed. Two buttons were created, the first to create a new fake repository and the other to Delete the selected repository. After clicking on these buttons, the new repository list will be rendered again.
+
+* The first button access the route: `POST /repositories`
+* The second button access the route: `DELETE /repositories/:id`
+
 
 ## ⚙️ Techs:
 
 * __NodeJS__;
-* Express;
-* Nodemon;
+* __ReactJS__;
 * Yarn;
 * Jest;
 
 ## ⛏ Tools:
 
-* [Insomnia](https://insomnia.rest/download/);
-* [Notion](https://www.notion.so/?utm_source=google&utm_campaign=brand_alpha&utm_content=row&utm_term=notion&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHs5ggnFG4dmfW38kOuGDTQS1-YjRGg01PuIriv8ftUuAUzeoU7QFFxoCAkIQAvD_BwE);
+* [Notion](https://www.notion.so/?utm_source=google&utm_campaign=brand_alpha&utm_content=row&utm_term=notion&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHs5ggnFG4dmfW38kOuGDTQS1-YjRGg01PuIriv8ftUuAUzeoU7QFFxoCAkIQAvD_BwE)
 
 
 ## 🏁 Run this project:
@@ -108,7 +102,7 @@ To run on the first time,
 into your folder:
 
 ```bash
-$ git clone https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2
+$ git clone https://github.com/Fred-Reis/challenge_frontEnd-02_GoStack-v2
 ```
 
 Into repo folder, to intall ```Node_Modules``` run:
