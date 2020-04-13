@@ -73,7 +73,6 @@
 ## 💡 About Challenge:
 
 This challenge was to practice knowledge of the fundamentals with ReactJS.
-
 An application was developed to consume an API previously developed with the NodeJS.
 
 ## 🔥 Functionalities:
