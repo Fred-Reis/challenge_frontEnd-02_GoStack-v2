@@ -114,12 +114,6 @@ Into repo folder, to intall ```Node_Modules``` run:
 yarn
 ```
 
-To link with IOS:
-
-```bash
-pod install
-```
-
 And to start the aplication in your browser, run: 
 
 ```bash
