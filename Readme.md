@@ -11,7 +11,7 @@
 
 <h3 align="center">
   <img alt="ReactJS" 
-    src="https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png" width="180px"/>
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3k4N2jJBuT9gdGLvj9GD0QFf4uPU0QCbPPZCGWdfSpKvKSeSy&usqp=CAU" width="180px"/>
 </h3>
 
 <p align="center">
@@ -21,6 +21,8 @@
   <img alt="language version" src="https://img.shields.io/badge/Yarn-v_1.22.4-2C8EBB?logo=Yarn">
 
   <img alt="language version" src="https://img.shields.io/badge/React-v_16.13.1-61DAFB?logo=react">
+
+  <img alt="language version" src="https://img.shields.io/badge/React_Native-v_0.62.1-61DAFB?logo=react">
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fred-Reis/challenge_frontEnd-02_GoStack-v2">
 
@@ -130,9 +132,11 @@ yarn start
 
 ___To take advantage of this application, you need [the back-end server](https://github.com/Fred-Reis/challenge_backEnd-01_GoStack-v2) to be running.___
 
+> Recommend using [Insomnia](https://insomnia.rest/download/) to test routes
+
 <br/>
 
-😃 Now run the project in your device or favorite emulator and...
+😃 Now run the project in your favorite vrowser and...
 **BE HAPPY**.
 
 <h4>
