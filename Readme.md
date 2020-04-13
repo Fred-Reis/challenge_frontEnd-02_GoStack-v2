@@ -64,6 +64,9 @@
   <a href="#-run-this-project">
     <img src="https://img.shields.io/badge/Run_this_project-a5a5a5"/>
   </a>&nbsp;&nbsp;
+  <a href="#-warning">
+    <img src="https://img.shields.io/badge/Warning-a5a5a5"/>
+  </a>&nbsp;&nbsp;
   <a href="#author-frederico-reis">
     <img src="https://img.shields.io/badge/Author-a5a5a5"/>
   </a>
